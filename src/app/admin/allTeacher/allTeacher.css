@@ -1,0 +1,82 @@
+/* Container for the entire teachers list */
+.teachers-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #007BFF; /* Change border color on focus */
+  outline: none;
+}
+
+/* Table styling */
+.teachers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.teachers-table th,
+.teachers-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.teachers-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.teachers-table td {
+  background-color: #fff;
+  color: #555;
+}
+
+.teachers-table tr:hover td {
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for teacher profile images */
+.teacher-profile-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.teacher-profile-placeholder {
+  background-color: #e0e0e0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  border-radius: 50%;
+}
+
+.highlight {
+  background-color: yellow; /* or any other color you prefer */
+  font-weight: bold;
+}
